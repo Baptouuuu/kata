@@ -9,6 +9,13 @@ use Innmind\BlackBox\{
     Set,
 };
 
+/**
+ * Le but de cet exercice est d'utiliser les structures de données fournies par
+ * le package innmind/immutable (déjà installé). Les premières tentatives de
+ * résolutions des exercices devraient être fait de façon impérative pour se
+ * familiariser avec les données avant d'essayer de refactorer via
+ * innmind/immutable
+ */
 class ProgammationFonctionnelleTest extends TestCase
 {
     use BlackBox;
