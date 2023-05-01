@@ -1,0 +1,29 @@
+{
+    "name": "baptouuuu/kata",
+    "type": "project",
+    "require": {
+        "innmind/immutable": "^4.14",
+        "innmind/time-continuum": "^3.2",
+        "innmind/black-box": "^4.18"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Kata\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Baptiste Langlade",
+            "email": "baptouuuu@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
