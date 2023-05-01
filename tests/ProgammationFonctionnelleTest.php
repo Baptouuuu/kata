@@ -44,8 +44,6 @@ class ProgammationFonctionnelleTest extends TestCase
                 [$this->csv2, 'homme', 3349],
                 [$this->csv2, 'femme', 6651],
             ))
-            ->take(4)
-            ->disableShrinking()
             ->then(function($data) {
                 [$csv, $sexe, $expected] = $data;
 
