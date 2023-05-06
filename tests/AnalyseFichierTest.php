@@ -16,7 +16,7 @@ use Innmind\BlackBox\{
  * familiariser avec les données avant d'essayer de refactorer via
  * innmind/immutable
  */
-class ProgammationFonctionnelleTest extends TestCase
+class AnalyseFichierTest extends TestCase
 {
     use BlackBox;
 
