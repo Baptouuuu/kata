@@ -20,6 +20,15 @@ Les exercices se trouvent dans le dossier `tests` où chaque test est un exercic
 
 Pour chaque test plusieurs données d'entrées sont générées pour vraiment valider l'implémentation et s'assurer qu'aucun raccourci n'a été pris.
 
-## Remarques
+## Jeux de données
 
 Les données sont générées aléatoirement, elles sont donc fictives et pas nécessairement cohérentes (un code postal ne correspond pas forcément à la ville associée).
+
+Les 2 fichiers `data.csv` et `data-2.csv` ont la même structure et représentent une liste d'habitants français. Les fichiers comportent les colonnes :
+- Titre
+- Prénom
+- Nom de famille
+- Date de naissance
+- Adresse
+- Code postal
+- Ville
