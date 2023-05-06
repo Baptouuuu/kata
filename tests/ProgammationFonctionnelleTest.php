@@ -378,4 +378,21 @@ class ProgammationFonctionnelleTest extends TestCase
                 $this->assertSame($expected, $existe);
             });
     }
+
+    public function testLaPremièreFamilleDontPlusieursMembresSontDéfinisConsécutivement()
+    {
+        $this->markTestSkipped();
+        $this
+            ->forAll(Set\Elements::of(
+                [$this->csv1, 'Martine, Louise Claude Suzanne Durand'],
+                [$this->csv2, 'Bernard, Nathalie Isabelle Michel Michel'],
+            ))
+            ->then(function($data) {
+                [$csv, $expected] = $data;
+
+                $famille = '';
+
+                $this->assertSame($expected, $famille);
+            });
+    }
 }
