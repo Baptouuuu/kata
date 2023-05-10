@@ -20,7 +20,9 @@ class AnalyseFichierTest extends TestCase
 {
     use BlackBox;
 
+    /** @var \Generator<string> */
     private $csv1;
+    /** @var \Generator<string> */
     private $csv2;
 
     public function setUp(): void
