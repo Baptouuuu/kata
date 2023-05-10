@@ -15,6 +15,8 @@ use Innmind\BlackBox\{
  * résolutions des exercices devraient être fait de façon impérative pour se
  * familiariser avec les données avant d'essayer de refactorer via
  * innmind/immutable
+ *
+ * @see https://github.com/Innmind/Immutable/blob/develop/docs/README.md
  */
 class AnalyseFichierTest extends TestCase
 {
